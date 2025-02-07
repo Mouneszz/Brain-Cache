@@ -20,5 +20,3 @@ After Creating a repository if we need to update
 `git add .
 `git commit -m "Updated notes"
 `git push origin main`
-
-`
