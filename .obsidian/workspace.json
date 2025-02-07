@@ -11,10 +11,14 @@
             "id": "05b5e29d082fa31e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Git"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Git"
             }
           },
           {
@@ -135,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Git"
             }
           }
         ],
@@ -162,6 +168,7 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
+    "Git.md",
     "Multi Threading/Code.md",
     "Important Programs/Binary Tree.md",
     "Graph/BFS.md",
@@ -184,7 +191,6 @@
     "Problems/Medium/Graph.md",
     "Important Programs/Stack.md",
     "Important Programs/Strings.md",
-    "Untitled.md",
     "Soliton",
     "Graph/Detect Cyclic undirected cyclic graph(BFS).md",
     "Graph/Detect  Cycle in undirected cyclic Graph using dfs.md",
