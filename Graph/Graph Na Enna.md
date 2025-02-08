@@ -1,4 +1,4 @@
-So graph is not structure like tree where   the elements are binded into a structure , 
+So graph is not a structure like tree where  the elements are formed  into a structure , 
 
 **Graph is just n number of elements which are having n number of relationships with n number of elements .**
 

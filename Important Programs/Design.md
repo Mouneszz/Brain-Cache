@@ -78,3 +78,29 @@ public:
  * obj->put(key,value);
  */
 ```
+[2349. Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/)
+Intuition : Here we just create two maps one for the index = number and one for adding all the index inside priority queue in the number `map<int ,priority_queue<int>`. the change  is simple just have to look up if it not present in the first map add an entry into both maps . And for the find we have to return smallest  index which have the number  so we pop our priority queue is now a minheap because of this syntax change `priority_quueu<int,vector<int>,greater<int>>>`.
+so we pop until we get a index which have the number in the first map which is minimum in the queue.
+```cpp
+class NumberContainers {
+    unordered_map<int,int> m;
+    unordered_map<int,priority_queue<int,vector<int>,greater<int>>> d;
+public:
+    NumberContainers() {
+        
+    }
+    
+    void change(int index, int number) {
+        if(m.count(index) && m[index]==number) return;
+        m[index]=number;
+        d[number].push(index);
+    }
+    
+    int find(int number) {
+        if(!d.count(number)) return -1;
+        auto &pq = d[number];
+        while(!pq.empty() && m[pq.top()]!=number) pq.pop();
+        return pq.empty()?-1:pq.top();
+    }
+};
+```

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important Programs/Binary Tree.md",
+                "file": "Graph/Graph Na Enna.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Tree"
+              "title": "Graph Na Enna"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Important Programs/Binary Tree.md",
+                "file": "Graph/Graph Na Enna.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Binary Tree"
+              "title": "Outline of Graph Na Enna"
             }
           }
         ],
@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,11 +168,14 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
+    "Important Programs/Design.md",
+    "Graph/BFS.md",
+    "Graph/DFS.md",
+    "Important Programs/Binary Tree.md",
     "Important Programs/Binary Search.md",
     "Important Programs/Stack.md",
     "Important Programs/Arrays.md",
     "Important Programs/Strings.md",
-    "Important Programs/Binary Tree.md",
     "Important Programs/Linked List.md",
     "Soliton/Important.md",
     "Soliton/C.md",
@@ -181,21 +184,18 @@
     "OOPS/Definitions.md",
     "Multi Threading/Difference between with and without threading.md",
     "Multi Threading/Definition.md",
-    "Important Programs/Design.md",
     "Multi Threading/Member functions.md",
     "Multi Threading/Code.md",
     "Bit  manipulation/Shifting.md",
     "Bit  manipulation/Xor.md",
     "Bit  manipulation/Tips for Manipulation.md",
     "Git.md",
-    "Graph/BFS.md",
     "Graph/Graph Na Enna.md",
     "Graph/Topology sort.md",
     "C++.md",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Things to remember/Static and Non static.md",
-    "Problems/Medium/LinkedList.md",
     "Soliton",
     "OOPS",
     "Important Programs",
