@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph/Graph Na Enna.md",
+                "file": "Problems/Medium/HashMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph Na Enna"
+              "title": "HashMap"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Graph/Graph Na Enna.md",
+                "file": "Problems/Medium/HashMap.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Graph Na Enna"
+              "title": "Outline of HashMap"
             }
           }
         ],
@@ -168,13 +168,15 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
+    "Important Programs/Arrays.md",
+    "Problems/Medium/HashMap.md",
+    "Graph/Graph Na Enna.md",
     "Important Programs/Design.md",
     "Graph/BFS.md",
     "Graph/DFS.md",
     "Important Programs/Binary Tree.md",
     "Important Programs/Binary Search.md",
     "Important Programs/Stack.md",
-    "Important Programs/Arrays.md",
     "Important Programs/Strings.md",
     "Important Programs/Linked List.md",
     "Soliton/Important.md",
@@ -190,12 +192,10 @@
     "Bit  manipulation/Xor.md",
     "Bit  manipulation/Tips for Manipulation.md",
     "Git.md",
-    "Graph/Graph Na Enna.md",
     "Graph/Topology sort.md",
     "C++.md",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
-    "Things to remember/Static and Non static.md",
     "Soliton",
     "OOPS",
     "Important Programs",
