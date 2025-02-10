@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important Programs/Design.md",
+                "file": "Important Programs/Binary Search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design"
+              "title": "Binary Search"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Important Programs/Design.md",
+                "file": "Important Programs/Binary Search.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Design"
+              "title": "Outline of Binary Search"
             }
           }
         ],
@@ -168,6 +168,8 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
+    "Important Programs/Stack.md",
+    "Important Programs/Design.md",
     "Graph/Detect Cyclic undirected cyclic graph(BFS).md",
     "Graph/Detect Cycle in Directed Graph.md",
     "Graph/Detect  Cycle in undirected cyclic Graph using dfs.md",
@@ -178,11 +180,9 @@
     "Problems/Medium/HashMap.md",
     "Important Programs/Arrays.md",
     "Graph/Graph Na Enna.md",
-    "Important Programs/Design.md",
     "Graph/BFS.md",
     "Graph/DFS.md",
     "Important Programs/Binary Tree.md",
-    "Important Programs/Stack.md",
     "Soliton/Important.md",
     "Soliton/C.md",
     "Soliton/Pen and paper round.md",
