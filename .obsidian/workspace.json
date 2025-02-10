@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/Medium/HashMap.md",
+                "file": "Important Programs/Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HashMap"
+              "title": "Design"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problems/Medium/HashMap.md",
+                "file": "Important Programs/Design.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HashMap"
+              "title": "Outline of Design"
             }
           }
         ],
@@ -168,17 +168,21 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
-    "Important Programs/Arrays.md",
+    "Graph/Detect Cyclic undirected cyclic graph(BFS).md",
+    "Graph/Detect Cycle in Directed Graph.md",
+    "Graph/Detect  Cycle in undirected cyclic Graph using dfs.md",
+    "Important Programs/Strings.md",
+    "Important Programs/Binary Search.md",
+    "Important Programs/Linked List.md",
+    "Problems/Medium/LinkedList.md",
     "Problems/Medium/HashMap.md",
+    "Important Programs/Arrays.md",
     "Graph/Graph Na Enna.md",
     "Important Programs/Design.md",
     "Graph/BFS.md",
     "Graph/DFS.md",
     "Important Programs/Binary Tree.md",
-    "Important Programs/Binary Search.md",
     "Important Programs/Stack.md",
-    "Important Programs/Strings.md",
-    "Important Programs/Linked List.md",
     "Soliton/Important.md",
     "Soliton/C.md",
     "Soliton/Pen and paper round.md",
@@ -190,10 +194,6 @@
     "Multi Threading/Code.md",
     "Bit  manipulation/Shifting.md",
     "Bit  manipulation/Xor.md",
-    "Bit  manipulation/Tips for Manipulation.md",
-    "Git.md",
-    "Graph/Topology sort.md",
-    "C++.md",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Soliton",

@@ -104,3 +104,109 @@ public:
     }
 };
 ```
+[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+#trie 
+Intuition: First we have to create a `TrieNode` which have array of 26 `TreiNode*` which store its  next characters. and also we should declare a `isword` variable to mark is this word finished ,we make it as true in insert function . search and start with is similar compared to but in search we return if the `isword` is true but in starts with we simply return  true after the loop.
+```cpp
+class TrieNode{
+public:
+    TrieNode* child[26];
+    bool isword;
+    TrieNode(){
+        isword = false;
+        for(int i=0;i<26;i++){
+            child[i] = nullptr;
+        }
+    }
+};
+class Trie {
+public:
+    TrieNode* root;
+    Trie() {
+        root = new TrieNode();
+    }
+    
+    void insert(string word) {
+        TrieNode* curr = root;
+        for(char &ch:word){
+            if(curr->child[ch-'a']==nullptr)
+            curr->child[ch-'a'] = new TrieNode();
+            curr = curr->child[ch-'a'];
+        }
+        curr->isword = true;
+    }
+    
+    bool search(string word) {
+        TrieNode* curr = root;
+        for(char &ch:word){
+            if(curr->child[ch-'a']==nullptr) return false;
+            curr = curr->child[ch-'a'];
+        }
+        return curr->isword;
+    }
+    
+    bool startsWith(string prefix) {
+        TrieNode* curr = root;
+        for(char &ch:prefix){
+            if(curr->child[ch-'a']==nullptr) return false;
+            curr = curr->child[ch-'a'];
+        }
+        return true;
+    }
+};
+```
+[211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+#true
+Intuition : So its same as the previous one but we want to include backtracking in it so the insertion is same as above but and also here we used map instead of an array, if we found dot we check all of its children using recursion if its is not return true than it means its is not possible so return false. and if the character is not found inside the map and its not a dot than also return false.
+```cpp
+class TrieNode{
+public:
+    unordered_map<char,TrieNode*> child;
+    bool isword = false;
+    TrieNode(){
+
+    }
+};
+class WordDictionary {
+public:
+    TrieNode* root;
+    WordDictionary() {
+        root = new TrieNode();
+    }
+    
+    void addWord(string word) {
+      TrieNode* curr = root;
+      for(char& ch:word){
+        if(!curr->child.count(ch)){
+            curr->child[ch] = new TrieNode();
+        }
+        curr = curr->child[ch];
+      }
+      curr->isword = true;  
+    }
+    bool searchnode(string word,TrieNode* node){
+        for(int i=0;i<word.size();i++){
+            char ch = word[i];
+            if(!node->child.count(ch)){
+                if(ch =='.'){
+                    for(auto& m:node->child){
+                        TrieNode* chil = m.second;
+                        if(searchnode(word.substr(i+1),chil)){
+                            return true;
+                        }
+                    }
+                    return false; 
+                }
+                return false;
+            }
+            else{
+                node = node->child[ch];
+            }
+        }
+        return node->isword;
+    }
+    bool search(string word) {
+        return searchnode(word,root);
+    }
+};
+```
