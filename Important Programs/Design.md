@@ -156,7 +156,7 @@ public:
 };
 ```
 [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-#true
+#trie 
 Intuition : So its same as the previous one but we want to include backtracking in it so the insertion is same as above but and also here we used map instead of an array, if we found dot we check all of its children using recursion if its is not return true than it means its is not possible so return false. and if the character is not found inside the map and its not a dot than also return false.
 ```cpp
 class TrieNode{
@@ -209,4 +209,28 @@ public:
         return searchnode(word,root);
     }
 };
+```
+[703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+Intuition : Create a Min heap  with k size to store ,if we have a min heap of size k and to return the kth largest than the returning the top element will be the answer because **the kth largest element in a k size min heap is always the top element**.
+```cpp
+class KthLargest {
+public:
+    priority_queue<int,vector<int>,greater<int>> qu;
+    int n;
+    KthLargest(int k, vector<int>& nums) {
+        n=k;
+        for(int i:nums){
+            add(i);
+        }
+    }
+    
+    int add(int val) {
+        qu.push(val);
+        if(qu.size()>n){
+            qu.pop();
+        }
+        return qu.top();
+    }
+};
+
 ```

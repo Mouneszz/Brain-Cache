@@ -90,5 +90,3 @@ Order to perform operators:
 If two or more Operators have same precedence perform them by **associativity**.
 - **Left-to-right** associativity means the operators are evaluated from **left to right**. Common for most binary operators (`+`, `-`, `*`, `/`).
 - **Right-to-left** associativity means the operators are evaluated from **right to left**. Common for assignment (`=`), conditional (`?:`), and post-increment (`i++`) operators.
-
-
