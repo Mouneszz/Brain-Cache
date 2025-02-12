@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important Programs/Design.md",
+                "file": "Trie/Implementation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design"
+              "title": "Implementation"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Important Programs/Design.md",
+                "file": "Trie/Implementation.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Design"
+              "title": "Outline of Implementation"
             }
           }
         ],
@@ -168,9 +168,10 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
+    "Important Programs/Maxheap Minheap.md",
+    "Important Programs/Design.md",
     "Soliton/C.md",
     "Soliton/Pen and paper round.md",
-    "Important Programs/Design.md",
     "Important Programs/Trie.md",
     "Trie/Implementation.md",
     "Important Programs/Binary Search.md",
@@ -194,7 +195,6 @@
     "Multi Threading/Difference between with and without threading.md",
     "Multi Threading/Definition.md",
     "Multi Threading/Member functions.md",
-    "Multi Threading/Code.md",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Soliton",
