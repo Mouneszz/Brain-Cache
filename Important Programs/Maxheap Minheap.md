@@ -79,3 +79,35 @@ public:
     }
 };
 ```
+[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+Intuition :  Here when we need to find the median we just need to have the access to the center element in an odd size vector , or we need to find the nodes in between and find the median so to optimize this solution we created two heaps
+- `max_heap` - which we are going to use to store the first have of the list in a ascending order so when we want to get the median in odd or in even size we simply return the top element in this. `max_heap` should always have at most one size difference with `min_heap`.
+- `min_heap` - This heap contains every element greater than the elements in the max heap but in the ascending order.
+so, in the code first we have to add element to the `max_heap` after that add the top element in the `max_heap`which is the top in that heap, to the `min_heap` and remove it in the `max_heap`.
+if the `max_heap` have size lesser than the `min_heap` then we should get the lesser element in `min_heap` which is the top to the `max_heap`.
+```cpp
+class MedianFinder {
+private:
+priority_queue<int> max_heap;
+priority_queue<int,vector<int>,greater<int>> min_heap;
+public:
+    MedianFinder() {
+        
+    }
+    
+    void addNum(int num) {
+        max_heap.push(num);
+        min_heap.push(max_heap.top());
+        max_heap.pop();
+        if(max_heap.size()<min_heap.size()){
+            max_heap.push(min_heap.top());
+            min_heap.pop();
+        }
+    }
+    
+    double findMedian() {
+        if(max_heap.size()>min_heap.size()) return max_heap.top();
+        return (max_heap.top()+min_heap.top())/2.0;
+    }
+};
+```
