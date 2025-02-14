@@ -187,4 +187,51 @@ public:
     }
 };
 ```
-
+[51. N-Queens](https://leetcode.com/problems/n-queens/)
+Intuition: It is a hard problem, first the main thing is to find the backtrack logic so  there are certain conditions should be checked to place the queen in a position so we create a `isvalid` function to check is that position  is it valid. and  we mark the position as queen in board and after that recursion ends we unmark it we carry the `col` variable  as it points that in which column we should place the queen so we only have to iterate the rows. in `isvalid` we check for the is it present in the same row and is it present diagonally from both upward and downward, we dont check for the column as we increment the col once for every backtrack call.
+```cpp
+class Solution {
+public:
+    vector<vector<string>> solveNQueens(int n) {
+        vector<vector<char>> board(n,vector<char>(n,'.'));
+        vector<vector<string>> result;
+        back(board,0,result);
+        return result;
+    }
+    void back(vector<vector<char>>& board,int col,vector<vector<string>>& ans){
+        if(col==board.size()){
+            ans.push_back(construct(board));
+        }
+        for(int i=0;i<board.size();i++){
+            if(isvalid(i,col,board)){
+            board[i][col] = 'Q';
+            back(board,col+1,ans);
+            board[i][col] = '.';
+            }
+        }
+    }
+    vector<string> construct(vector<vector<char>>& board){
+        vector<string> ans;
+        for(int i=0;i<board.size();i++){
+            string str="";
+            for(int j=0;j<board.size();j++){
+                str+=board[i][j];
+            }
+            ans.push_back(str);
+        }
+        return ans;
+    }
+    bool isvalid(int row,int col,vector<vector<char>>& board){
+        for(int i=0;i<board.size();i++){ // checking the row 
+            if(board[row][i]=='Q') return false;
+        }
+        for(int i = row,j =col;i>=0 && j>=0;i--,j--){ 
+            if(board[i][j]=='Q') return false; // going left upwards
+        }
+        for(int i= row,j=col; i<board.size() && j>=0;i++,j--){
+            if(board[i][j]=='Q') return false; // going left downwards
+        }
+    return true;
+    }
+};
+```

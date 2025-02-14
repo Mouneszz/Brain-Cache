@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Basic.md",
+                "file": "Important Programs/Backtracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic"
+              "title": "Backtracking"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Basic.md",
+                "file": "Important Programs/Backtracking.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Basic"
+              "title": "Outline of Backtracking"
             }
           }
         ],
@@ -168,8 +168,8 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
-    "Git.md",
     "OS/Basic.md",
+    "Git.md",
     "OS",
     "C++.md",
     "Trie/Implementation.md",
