@@ -725,5 +725,40 @@ public:
 };
 ```
 
-
+[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+Intuition: Similar to number of island just have to get the sum from from every one and return the max  of it.
+```cpp
+class Solution {
+public:
+    int helper(int i,int j,vector<vector<int>>& grid,vector<vector<int>>& check,int sum){
+        int m = grid.size();
+        int n = grid[0].size();
+        check[i][j] =1;
+        vector<int> dr ={0,0,1,-1};
+        vector<int> dc ={1,-1,0,0};
+        for(int k=0;k<4;k++){
+            int row =i+dr[k];
+            int col =j+dc[k];
+            if(row>=0 && row<m && col>=0 && col<n && grid[row][col]==1 && check[row][col]==0){
+                sum = helper(row,col,grid,check,sum+1);
+            }
+        }
+        return sum;
+        
+    }
+    int maxAreaOfIsland(vector<vector<int>>& grid) {
+        int m =grid.size();
+        int n = grid[0].size();
+        vector<vector<int>> check(m,vector<int>(n,0));
+        int ans=0;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(grid[i][j]==1 && check[i][j]==0)
+                ans= max(ans,helper(i,j,grid,check,1));
+            }
+        }
+        return ans;
+    }
+};
+```
 

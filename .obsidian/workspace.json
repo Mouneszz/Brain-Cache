@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important Programs/Backtracking.md",
+                "file": "Important Programs/Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backtracking"
+              "title": "Stack"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Important Programs/Backtracking.md",
+                "file": "Important Programs/Stack.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Backtracking"
+              "title": "Outline of Stack"
             }
           }
         ],
@@ -168,13 +168,15 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
+    "Things to remember/Code.md",
     "OS/Basic.md",
+    "Problems/Medium/Graph.md",
+    "Important Programs/Backtracking.md",
     "Git.md",
     "OS",
     "C++.md",
     "Trie/Implementation.md",
     "Important Programs/Trie.md",
-    "Important Programs/Backtracking.md",
     "Important Programs/Strings.md",
     "Important Programs/Arrays.md",
     "Important Programs/Stack.md",
@@ -194,8 +196,6 @@
     "Graph/Graph Na Enna.md",
     "Graph/BFS.md",
     "Graph/DFS.md",
-    "Soliton/Important.md",
-    "Soliton/Physics.md",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Soliton",

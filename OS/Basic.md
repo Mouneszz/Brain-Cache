@@ -65,6 +65,7 @@ Driver:
 
 System call:
  - A system call is a programmatic way in which a computer program requests a service from the kernel of the operating system. It is a way for programs to **interact with the operating system****.
+ - System call ****provides**** the services of the operating system to the user programs via the Application Program Interface(API).
 
 Kernel mode:
 - **Kernel Mode** is a privileged execution mode where the operating system has full access to hardware and system resources.
@@ -75,6 +76,13 @@ Context Switching:
 Interrupt:
 - An **interrupt** is a signal sent to the CPU to stop its current execution and handle an urgent task. It helps the OS manage multiple processes efficiently.
 
+Privileged Instructions:
+- Privileged instructions are those that can only be executed by the [operating system](https://www.geeksforgeeks.org/what-is-an-operating-system/) kernel or a privileged process, such as a device driver.
+- These instructions typically perform operations that require direct access to hardware or other privileged resources, such as setting up memory mappings or accessing I/O devices.
+
+Unprivileged Instructions:
+- Non-privileged instructions are those that can be executed by any process, including [user-level processes](https://www.geeksforgeeks.org/difference-between-user-level-thread-and-kernel-level-thread/).
+- These instructions are typically used for performing computations, accessing user-level resources such as files and memory, and managing process control.
 
 
 

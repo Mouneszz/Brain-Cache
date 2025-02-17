@@ -28,4 +28,20 @@ void backtrack(int index,vector<int>& ds,vector<vector<int>>& ans,vector<int>& n
 	backtrack(index+1,ds,ans,nums);
 }
 ```
-DFS in Binary tree
+Permutation:
+#backtracking 
+```cpp
+void backtrack(string& str, vector<bool>& used, string& ds, set<string>& result) {
+        if (ds.size() == str.size()) { // Full-length permutation
+            result.insert(ds); // Set ensures uniqueness
+            return;
+        }
+        for (int i = 0; i < str.size(); i++) {
+            if (used[i]) continue; // Skip already used characters
+            used[i] = true;
+            ds.push_back(str[i]);
+            backtrack(str, used, ds, result);
+            ds.pop_back();
+            used[i] = false;
+        }
+```
