@@ -762,3 +762,54 @@ public:
 };
 ```
 
+[994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+Intuition : here its we  have to visit all adjacent cells of the rotten oranges `2` and mark the good oranges `1` as rotten oranges `2`  push them into queue , like normal bfs  a while loop is necessary
+but in a single  iteration we should check all the rotten oranges at once so a for loop which  traverse from 0 to the size of the queue for every  position we go into the four directions to find the good orange and make it into rotten and push into queue.
+```cpp
+class Solution {
+public:
+    int orangesRotting(vector<vector<int>>& grid) {
+        int m = grid.size();
+        int n = grid[0].size();
+        int cnt=0;
+        int oranges =0;
+        vector<vector<int>> check(m,vector<int>(n,0));
+        queue<pair<int,int>> qu;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(grid[i][j]==2){
+                    qu.push({i,j});
+                    check[i][j]=1;
+                }
+                else if(grid[i][j]==1){
+                    oranges++;
+                }
+            }
+        }
+        vector<int> dr = {-1,1,0,0};
+        vector<int> dc = {0,0,-1,1};
+        while(!qu.empty()){
+            int size = qu.size();
+            bool ischange=false;
+            for(int i=0;i<size;i++){
+            int r = qu.front().first;
+            int c = qu.front().second;
+            qu.pop();
+            for(int i=0;i<4;i++){
+                int row = r+dr[i];
+                int col = c+dc[i];
+                if(row>=0 && row<m && col>=0 && col<n && check[row][col]==0 && grid[row][col]==1){
+                    qu.push({row,col});
+                    grid[row][col] = 2;
+                    check[row][col]=1;
+                    ischange =true;
+                    oranges--;
+                }
+            }
+            }
+            if(ischange) cnt++;
+        }
+        return (oranges==0)?cnt:-1;
+    }
+};
+```

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important Programs/Stack.md",
+                "file": "Problems/Medium/Graph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack"
+              "title": "Graph"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "course",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Important Programs/Stack.md",
+                "file": "OS/Scheduling Algorithms.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Stack"
+              "title": "Outline of Scheduling Algorithms"
             }
           }
         ],
@@ -154,7 +155,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,12 +168,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05b5e29d082fa31e",
+  "active": "5fccd8c69fec0735",
   "lastOpenFiles": [
-    "Things to remember/Code.md",
-    "OS/Basic.md",
-    "Problems/Medium/Graph.md",
     "Important Programs/Backtracking.md",
+    "OS/Scheduling Algorithms.md",
+    "OS/Basic.md",
+    "OS/Process Scheduling.md",
+    "MySQL/Basic.md",
+    "Untitled.md",
+    "MySQL",
+    "Problems/Medium/LinkedList.md",
+    "Important Programs/Stack.md",
+    "Things to remember/Code.md",
+    "Problems/Medium/Graph.md",
     "Git.md",
     "OS",
     "C++.md",
@@ -179,7 +188,6 @@
     "Important Programs/Trie.md",
     "Important Programs/Strings.md",
     "Important Programs/Arrays.md",
-    "Important Programs/Stack.md",
     "Important Programs/Linked List.md",
     "Important Programs/Binary Tree.md",
     "Important Programs/Binary Search.md",
@@ -191,11 +199,6 @@
     "Graph/Detect Cyclic undirected cyclic graph(BFS).md",
     "Graph/Detect Cycle in Directed Graph.md",
     "Graph/Detect  Cycle in undirected cyclic Graph using dfs.md",
-    "Problems/Medium/LinkedList.md",
-    "Problems/Medium/HashMap.md",
-    "Graph/Graph Na Enna.md",
-    "Graph/BFS.md",
-    "Graph/DFS.md",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Soliton",
@@ -205,7 +208,6 @@
     "Problems/Medium/Graph",
     "Problems/Hard",
     "Problems/Medium",
-    "Problems/Easy",
     "Pasted image 20241016150500.png",
     "Pasted image 20241016150618.png",
     "Pasted image 20241016150816.png",
