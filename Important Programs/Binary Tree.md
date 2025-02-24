@@ -171,3 +171,30 @@ public:
     }
 };
 ```
+[1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)
+Intuition: **SO CREATING A TREE WITH MID AS THE ROOT AND LEFT SIDE AS THE ROOT'S LEFT PART AND RIGHT SIDE AS THE ROOT'S RIGHT CHILD BY DIVIING A INORDER LIST WILL MAKE THE TREE BALANCED**, get the in order  traversal elements in that order do the recursion call of finding the mid and making it as the root and passing the left child as the left to mid-1 and mid+1  to right .
+```cpp
+class Solution {
+public:
+    void inorder(TreeNode* root,vector<int>& in){
+        if(root==nullptr) return;
+        inorder(root->left,in);
+        in.push_back(root->val);
+        inorder(root->right,in);
+    }
+    TreeNode* construct(vector<int>& inorder,int left,int right){
+        if(left>right) return nullptr;
+        int mid = left+(right-left)/2;
+        TreeNode* curr = new TreeNode(inorder[mid]);
+        curr->left = construct(inorder,left,mid-1);
+        curr->right = construct(inorder,mid+1,right);
+        return curr;
+    }
+    TreeNode* balanceBST(TreeNode* root) {
+        if(root==nullptr) return nullptr;
+        vector<int> in;
+        inorder(root,in);
+        return construct(in,0,in.size()-1);
+    }
+};
+```

@@ -813,3 +813,87 @@ public:
     }
 };
 ```
+[1765. Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)
+Intuition : normal like other bfs traversals first we push the cell with water and 0 as the indices pair, in the while loop we get the current step as the queue second (step)+1 and assign it in the answer push that to the queue, so we can get the max peak element.
+```cpp
+class Solution {
+public:
+    vector<vector<int>> highestPeak(vector<vector<int>>& water) {
+        int m =water.size();
+        int n =water[0].size();
+        vector<vector<int>> check(m,vector<int>(n,0));
+        queue<pair<pair<int,int>,int>> qu;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(water[i][j]==1){
+                    water[i][j]=0;
+                    qu.push({{i,j},0});
+                    check[i][j] =1;
+                }
+            }
+        }
+        vector<int> dr ={1,-1,0,0};
+        vector<int> dc ={0,0,-1,1};
+        while(!qu.empty()){
+            int r = qu.front().first.first;
+            int c = qu.front().first.second;
+            int step = qu.front().second;
+            qu.pop();
+            for(int i=0;i<4;i++){
+                int row=r+dr[i];
+                int col=c+dc[i];
+                if(row>=0 && row<m && col>=0 && col<n && check[row][col]!=1){
+                    water[row][col] = step+1;
+                    check[row][col]=1;
+                    qu.push({{row,col},step+1});
+                }
+            }
+        }
+        return water;
+    }
+};
+```
+[1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)
+Intuition : its simple we have to perform dfs for every 1 which are in the boundary and mark it as 0 and count the remaining 1 and return it.
+```cpp
+class Solution {
+public:
+    void dfs(int i,int j,vector<vector<int>>& grid){
+        int m = grid.size();
+        int n = grid[0].size();
+        if(i<0 || i>=m || j<0 || j>=n || grid[i][j]!=1) return;
+        grid[i][j] =0;
+        dfs(i+1,j,grid);
+        dfs(i-1,j,grid);
+        dfs(i,j+1,grid);
+        dfs(i,j-1,grid);
+    }
+    int numEnclaves(vector<vector<int>>& grid) {
+        int m = grid.size();
+        int n = grid[0].size();
+        int cnt=0;
+        for(int i=0;i<m;i++){
+            if(grid[i][0]==1)
+            dfs(i,0,grid);
+        }
+        for(int i=0;i<m;i++){
+            if(grid[i][n-1]==1)
+            dfs(i,n-1,grid);
+        }
+        for(int j=0;j<n;j++){
+            if(grid[0][j]==1)
+            dfs(0,j,grid);
+        }
+        for(int j=0;j<n;j++){
+            if(grid[m-1][j]==1)
+            dfs(m-1,j,grid);
+        }
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(grid[i][j]==1) cnt++;
+            }
+        }
+        return cnt;
+    }
+};
+```
