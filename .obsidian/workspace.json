@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important Programs/Binary Tree.md",
+                "file": "OS/Process Scheduling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Tree"
+              "title": "Process Scheduling"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Scheduling Algorithms.md",
+                "file": "OS/Process Scheduling.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Scheduling Algorithms"
+              "title": "Outline of Process Scheduling"
             }
           }
         ],
@@ -169,15 +169,19 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
+    "MySQL/Basic.md",
+    "MySQL/Commands.md",
+    "OS/Scheduling Algorithms.md",
+    "OS/Process Scheduling.md",
+    "MySQL/Commands",
+    "MySQL/Untitled.md",
+    "JupyterMysql.md",
+    "Important Programs/Binary Tree.md",
     "Problems/Medium/Graph.md",
     "Problems/Medium/BackTracking.md",
     "Things to remember/Code.md",
     "Important Programs/Backtracking.md",
-    "OS/Scheduling Algorithms.md",
     "OS/Basic.md",
-    "OS/Process Scheduling.md",
-    "MySQL/Basic.md",
-    "Untitled.md",
     "MySQL",
     "Problems/Medium/LinkedList.md",
     "Important Programs/Stack.md",
@@ -189,15 +193,12 @@
     "Important Programs/Strings.md",
     "Important Programs/Arrays.md",
     "Important Programs/Linked List.md",
-    "Important Programs/Binary Tree.md",
     "Important Programs/Binary Search.md",
     "Important Programs/Design.md",
     "Important Programs/Maxheap Minheap.md",
     "Soliton/C.md",
     "Soliton/Pen and paper round.md",
     "Trie",
-    "Graph/Detect Cyclic undirected cyclic graph(BFS).md",
-    "Graph/Detect Cycle in Directed Graph.md",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Soliton",
@@ -206,7 +207,6 @@
     "Things to remember/code",
     "Problems/Medium/Graph",
     "Problems/Hard",
-    "Problems/Medium",
     "Pasted image 20241016150500.png",
     "Pasted image 20241016150618.png",
     "Pasted image 20241016150816.png",
