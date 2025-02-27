@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Process Scheduling.md",
+                "file": "MySQL/Filter - orderby.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Process Scheduling"
+              "title": "Filter - orderby"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Process Scheduling.md",
+                "file": "MySQL/Basic.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Process Scheduling"
+              "title": "Outline of Basic"
             }
           }
         ],
@@ -169,18 +169,22 @@
   },
   "active": "05b5e29d082fa31e",
   "lastOpenFiles": [
-    "MySQL/Basic.md",
-    "MySQL/Commands.md",
-    "OS/Scheduling Algorithms.md",
+    "MySQL/Basic CRUD.md",
+    "MySQL/Filter - orderby.md",
+    "MySQL/Table/2.Alter Table.md",
+    "MySQL/Table/1.Table creation.md",
+    "MySQL/Table",
+    "MySQL/Things to remember.md",
+    "Important Programs/Backtracking.md",
+    "MySQL/Definition for commands.md",
     "OS/Process Scheduling.md",
+    "OS/Scheduling Algorithms.md",
     "MySQL/Commands",
-    "MySQL/Untitled.md",
     "JupyterMysql.md",
     "Important Programs/Binary Tree.md",
     "Problems/Medium/Graph.md",
     "Problems/Medium/BackTracking.md",
     "Things to remember/Code.md",
-    "Important Programs/Backtracking.md",
     "OS/Basic.md",
     "MySQL",
     "Problems/Medium/LinkedList.md",
@@ -195,9 +199,6 @@
     "Important Programs/Linked List.md",
     "Important Programs/Binary Search.md",
     "Important Programs/Design.md",
-    "Important Programs/Maxheap Minheap.md",
-    "Soliton/C.md",
-    "Soliton/Pen and paper round.md",
     "Trie",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
@@ -206,7 +207,6 @@
     "Important Programs",
     "Things to remember/code",
     "Problems/Medium/Graph",
-    "Problems/Hard",
     "Pasted image 20241016150500.png",
     "Pasted image 20241016150618.png",
     "Pasted image 20241016150816.png",

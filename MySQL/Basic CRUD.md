@@ -16,7 +16,7 @@ create table tablename(sno int, name varchar(100));
 ```
 To **show/retrieve** data we use select command.
 ```mysql
-select * from tablaname;
+select * from tablaname; // * = everything
 ```
  **Insert**
  To **insert** values into the table the syntax is 
@@ -36,5 +36,24 @@ here the `set` is  to set name 'Mouneshwaran' we can use comma `,`  for multiple
 **Delete**
 The syntax to delete is 
 ```mysql
-delete from tablename 
+delete from tablename where sno = 204;
+```
+when we want to delete a specific row we use delete
+
+**Truncate**
+when we want to delete entirely records from the table, but the table will not be deleted
+```mysql
+truncate table tablename;
+```
+
+**Drop**
+We use drop to delete  the table itself from the database
+```mysql
+drop table tablename;
+```
+
+**Alter**
+To alter a table itself we have to use Alter but if we need to do something in a specific records we use update.
+```sql
+alter table tablename add email varchar(100);
 ```
