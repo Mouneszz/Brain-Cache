@@ -1,0 +1,85 @@
+Setting a rule to a column
+
+**Primary key**
+- it will not allow to enter duplicate values.
+- `NULL` cannot be allowed
+```mysql
+create table student(
+rollnum int primary key,
+name varchar(100) not null
+)
+```
+**Composite primary key**
+here the fields inside the primary key, it allows different combinations.
+- it checks both as a single primary key
+```mysql
+create table students(
+ roll_num int,
+ name varchar(100) not null,
+ number int,
+ primary key(roll_num,number)
+)
+```
+
+**Unique**
+it is similar to primary key but the only difference is unique key accepts values as `NULL` but not primary key the value should be something.
+```mysql
+create table student(
+rollnum int primary key,
+name varchar(100) not null,
+email varchar(100) unique
+)
+```
+we can give the email as null also while inserting.
+
+**Not Null**
+When we wont want customers to enter `null` into the field we have to use not null  as the constraint 
+```mysql
+name varchar(100) not null
+```
+
+**Check**
+When we need to check a value before storing it in the field we can use check
+```mysql
+create table voters(
+	name varchar(100),
+	age int check(age>18)
+)
+```
+
+**Foreign Key**
+ - When we reference a primary key from one table to another one a relation is created between those tables
+ - we will not be able to delete the field which in the main table(where it is a primary key)  if a specific value (primary key in main) have fields in the child table(where it is referenced).
+ - we can remove that by deleting that record in child table so the primary key record value now would not have any relation to the child table so it can now be deleted.
+
+```mysql
+create table drivers(
+    driver_id int primary key,
+    name varchar(100) not null
+);
+create table rides(
+    ride_id int primary key,
+    driver_id int,
+    pick_up varchar(100) not null,
+    drop_off varchar(100) not null,
+    foreign key(driver_id) references drivers(driver_id)
+);
+
+```
+in the above code
+- We cant enter invalid `driver_id` because it is reference drivers table's `driver_id`.
+- Only be able to insert driver id in rides, which are a `driver_id` in the drivers table.
+- A relation is created between those table drivers and rides.
+**We use foreign keys to be a relation between tables as when we need to join two tables we will have the foreign key field as a stand between and join both**
+
+**Default**
+ Having something  default for insert if the value is null.
+ - if not null than the new value will be inserted.
+ ```mysql
+ create table students(
+	name varchar(100) not null,
+	reg_no int primary key,
+	email varchar(100) unique,
+	country varchar(3) default = 'ind'
+ )
+```

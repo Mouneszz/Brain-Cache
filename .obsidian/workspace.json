@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/Filter - orderby.md",
+                "file": "MySQL/Basic CRUD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Filter - orderby"
+              "title": "Basic CRUD"
+            }
+          },
+          {
+            "id": "fdb504b471f365b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/Table/2.Alter Table.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.Alter Table"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,16 +182,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05b5e29d082fa31e",
+  "active": "fdb504b471f365b4",
   "lastOpenFiles": [
+    "MySQL/Things to remember.md",
+    "MySQL/Constraints.md",
+    "MySQL/Filter - order by.md",
+    "MySQL/Definition for commands.md",
     "MySQL/Basic CRUD.md",
-    "MySQL/Filter - orderby.md",
+    "MySQL/Untitled",
     "MySQL/Table/2.Alter Table.md",
     "MySQL/Table/1.Table creation.md",
     "MySQL/Table",
-    "MySQL/Things to remember.md",
     "Important Programs/Backtracking.md",
-    "MySQL/Definition for commands.md",
     "OS/Process Scheduling.md",
     "OS/Scheduling Algorithms.md",
     "MySQL/Commands",
@@ -198,7 +215,6 @@
     "Important Programs/Arrays.md",
     "Important Programs/Linked List.md",
     "Important Programs/Binary Search.md",
-    "Important Programs/Design.md",
     "Trie",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
@@ -206,7 +222,6 @@
     "OOPS",
     "Important Programs",
     "Things to remember/code",
-    "Problems/Medium/Graph",
     "Pasted image 20241016150500.png",
     "Pasted image 20241016150618.png",
     "Pasted image 20241016150816.png",
