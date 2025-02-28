@@ -2,7 +2,6 @@ When and where we have to use table key word before the table name.
 - You **must** use `TABLE` when creating, altering, dropping, or truncating a table.
 - You **don't** use `TABLE` when performing actions like `SELECT`, `INSERT`, `UPDATE`, or `DELETE`.
 
-
 ```mysql 
 drop table students;
 ```
@@ -30,4 +29,15 @@ When we want to delete but we dont want it permanently  we add a new column for 
 ```mysql
 order_id int auto_increment;
 ```
+
+**Candidate key**(Theory)
+if a primary key or composite which have one or more columns/fields is can be called as candidate.
+- A field can not be called as candidate key if it does not provide uniqueness to the key 
+- Example in a composite key a field  cannot be a candidate key if it does not add any uniqueness to  the composite key.
+
+Super key(Theory)
+- All candidate key are super key but not all super key can be a candidate key.
+
+
+
 
