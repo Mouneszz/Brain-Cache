@@ -11,17 +11,14 @@
             "id": "58e23abf640af787",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Empty.canvas",
-                "viewState": {
-                  "x": -255,
-                  "y": -30,
-                  "zoom": 0
-                }
+                "file": "MySQL/Code/10.Window Function.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Empty"
+              "icon": "lucide-file",
+              "title": "10.Window Function"
             }
           }
         ]
@@ -172,27 +169,27 @@
   },
   "active": "58e23abf640af787",
   "lastOpenFiles": [
+    "Git.md",
+    "Things to remember/Different ways to create Obj.md",
+    "Things to remember/Stack Memory and Heap Memory.md",
+    "MySQL/Code/10.Window Function.md",
+    "MySQL/Code/9.Join.md",
+    "MySQL/Code/6.String handling.md",
+    "MySQL/Code/5.Null handling.md",
+    "MySQL/Code/4.Aggregation functions.md",
+    "MySQL/Code/3.Filter - order by.md",
+    "MySQL/Code/2.Constraints.md",
+    "MySQL/Code/1.Basic CRUD.md",
+    "Empty.canvas",
     "JupyterMysql.md",
     "Untitled.md",
-    "Empty.canvas",
-    "Git.md",
     "C++.md",
-    "MySQL/Code/10.Window Function.md",
     "Important Programs/Design.md",
     "MySQL/Code/8.View.md",
-    "MySQL/Code/9.Join.md",
-    "MySQL/Code/4.Aggregation functions.md",
     "MySQL/Code/Table/2.Alter Table.md",
-    "MySQL/Code/1.Basic CRUD.md",
-    "MySQL/Code/2.Constraints.md",
-    "MySQL/Code/5.Null handling.md",
-    "MySQL/Code/6.String handling.md",
-    "MySQL/Code/3.Filter - order by.md",
     "Problems/Medium/Array.md",
     "Things to remember/Static and Non static.md",
     "Things to remember/How a program runs.md",
-    "Things to remember/Stack Memory and Heap Memory.md",
-    "Things to remember/Different ways to create Obj.md",
     "Things to remember/Code.md",
     "MySQL/Code/7.Sub Query.md",
     "MySQL/Code/Table/1.Table creation.md",
