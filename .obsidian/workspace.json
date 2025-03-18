@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/Code/Table/Date and time.md",
+                "file": "MySQL/Code/14.TCP Commit-Rollback.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Date and time"
+              "title": "14.TCP Commit-Rollback"
+            }
+          },
+          {
+            "id": "45fd9f362beb5f52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/Code/15.Grant - revoke.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15.Grant - revoke"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,35 +183,35 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "1ea876abf8f7c17e",
+  "active": "45fd9f362beb5f52",
   "lastOpenFiles": [
+    "MySQL/Code/14.TCP Commit-Rollback.md",
+    "MySQL/Code/15.Grant - revoke.md",
+    "C++.md",
+    "Empty.canvas",
+    "Git.md",
+    "JupyterMysql.md",
+    "MySQL/Code/6.String handling.md",
+    "Untitled.md",
+    "MySQL/Code/Date and time.md",
+    "MySQL/Code/13.Regexp.md",
     "MySQL/Code/12.Indexing-Partitioning.md",
-    "MySQL/Code/Table/Date and time.md",
     "MySQL/Code/1.Basic CRUD.md",
     "MySQL/Code/10.Window Function.md",
     "MySQL/Code/11.UNION,UNION ALL.md",
     "Important Programs/Strings.md",
     "MySQL/Code/4.Aggregation functions.md",
     "MySQL/Code/9.Join.md",
-    "MySQL/Code/6.String handling.md",
     "MySQL/Code/3.Filter - order by.md",
-    "Git.md",
     "Things to remember/Different ways to create Obj.md",
     "Things to remember/Stack Memory and Heap Memory.md",
     "MySQL/Code/5.Null handling.md",
     "MySQL/Code/2.Constraints.md",
-    "Empty.canvas",
-    "JupyterMysql.md",
-    "Untitled.md",
-    "C++.md",
     "Important Programs/Design.md",
     "MySQL/Code/8.View.md",
     "MySQL/Code/Table/2.Alter Table.md",
     "Problems/Medium/Array.md",
     "Things to remember/Static and Non static.md",
-    "Things to remember/How a program runs.md",
-    "Things to remember/Code.md",
-    "MySQL/Code/7.Sub Query.md",
     "MySQL/Theory",
     "MySQL/Code",
     "MySQL/Code/Table",
