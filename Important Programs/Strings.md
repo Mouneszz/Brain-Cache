@@ -162,6 +162,7 @@ public:
 ```
 
 [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
+#bfs 
 Intuition: We have to  use bfs to solve this problem, easy bfs we have to change every char in the string from  a to z and check if it presents, yes than add that to the queue.
 - have a pair inside queue so we can return the steps it needed.
 ```cpp
@@ -193,3 +194,4 @@ public:
     }
 };
 ```
+

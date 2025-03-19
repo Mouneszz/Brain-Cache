@@ -1,4 +1,4 @@
-`git init`
+-`git init`
 - This creates a git repository in the folder
 
 `git remote add origin https://github.com/your-username/your-repo-name.git
@@ -17,6 +17,7 @@
 
 
 After Creating a repository if we need to update
-`git add .
-`git commit -m "Updated notes"
-`git push origin main`
+
+- `git add .
+- `git commit -m "Updated notes"
+- `git push origin main`
