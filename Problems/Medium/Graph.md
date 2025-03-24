@@ -897,3 +897,43 @@ public:
     }
 };
 ```
+[2685. Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/)
+Intuition: For a graph component to complete component the edges should  be equal to k(k-1)/2.
+k=nodes.
+```cpp
+class Solution {
+public:
+    void dfs(int i,vector<vector<int>>& adj,vector<int>& check,int& node,int& edge){
+        if(check[i]==1) return;
+        check[i]=1;
+        node++;
+        for(int num:adj[i]){
+            edge++;
+            if(check[num]==0){
+            dfs(num,adj,check,node,edge);
+            }
+        }
+    }
+    int countCompleteComponents(int n, vector<vector<int>>& edges) {
+        vector<int> check(n,0);
+        int ans=0;
+        vector<vector<int>> adj(n);
+        for(vector<int> num:edges){
+            adj[num[0]].push_back(num[1]);
+            adj[num[1]].push_back(num[0]);
+        }
+        for(int i=0;i<n;i++){
+            
+            if(check[i]==0){
+                int node=0,edge=0;
+                dfs(i,adj,check,node,edge);
+                edge/=2;
+                if(edge==(node*(node-1)/2)){
+                ans++;
+            }
+            }
+        }
+        return ans;
+    }
+};
+```
