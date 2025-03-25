@@ -84,11 +84,8 @@ public:
                 if(isConnected[i][j]==1 && i!=j){
 
                     adj[i].push_back(j);
-
                 }
-
             }
-
         }
 
         vector<int> check(n, 0);
@@ -100,7 +97,6 @@ public:
                 ans++;
 
                 dfs(i,adj,check);
-
             }
 
         }
