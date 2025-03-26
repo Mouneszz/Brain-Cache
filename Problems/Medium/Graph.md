@@ -54,11 +54,8 @@ public:
 class Solution {
 
 public:
-
     void dfs(int start,vector<vector<int>>& adj,vector<int>& check){
-
         check[start] = 1;
-
         for(int n:adj[start]){
 
             if(!check[n])
