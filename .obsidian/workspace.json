@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "Interview prep/Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "Arrays"
             }
           }
         ]
@@ -168,13 +168,21 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "4d775096aa9f7f4d",
+  "active": "914403736d49bb82",
   "lastOpenFiles": [
+    "Graph/Detect Cycle in Directed Graph.md",
+    "Graph/Detect Cyclic undirected cyclic graph(BFS).md",
+    "Graph/DFS.md",
+    "Things to remember/Code.md",
+    "MySQL/Code/11.UNION,UNION ALL.md",
+    "MySQL/Code/1.Basic CRUD.md",
+    "GPT model/Architecture.md",
+    "GPT model/Transformer code.md",
+    "Important Programs/Binary Tree.md",
+    "Git.md",
     "Interview prep/Arrays.md",
     "Interview prep",
-    "Git.md",
     "Untitled",
-    "GPT model/Architecture.md",
     "JupyterMysql.md",
     "Graph/Graph Na Enna.md",
     "Problems/Medium/Graph.md",
@@ -182,24 +190,16 @@
     "Important Programs/Backtracking.md",
     "MySQL/Code/4.Aggregation functions.md",
     "MySQL/Code/10.Window Function.md",
-    "Graph/DFS.md",
     "Graph/Detect  Cycle in undirected cyclic Graph using dfs.md",
     "Graph/Adjacency List vs Adjacency matrix.md",
-    "Things to remember/Code.md",
     "Tree/Binary tree Structure.md",
-    "MySQL/Code/1.Basic CRUD.md",
     "MySQL/Theory/ACID.md",
     "MySQL/Theory/SCD.md",
     "MySQL/Theory/Things to remember.md",
     "MySQL/Theory/Definition for commands.md",
     "MySQL/Theory/Normalization.md",
     "Important Programs/Strings.md",
-    "Important Programs/Arrays.md",
-    "C++.md",
     "Empty.canvas",
-    "Important Programs/Binary Tree.md",
-    "Important Programs/Trie.md",
-    "Important Programs/Stack.md",
     "MySQL/Theory",
     "MySQL/Code",
     "MySQL/Code/Table",
