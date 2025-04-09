@@ -12,7 +12,8 @@ public:
         while(right<nums.size()){
             if(nums[right]==0 && iszero){
                 while(nums[left]!=0){
-                    left++;
+                 
+					left++;
                 }
                 left++;
             }
@@ -26,3 +27,4 @@ public:
     }
 };
 ```
+

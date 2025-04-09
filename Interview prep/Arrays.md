@@ -149,3 +149,23 @@ int main() {
 }
 
 ```
+[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+intuition : so to find the first position of the element given we have to do the lower bound
+- lower bound -  return target element pointer if its there or return the next greater element pointer
+- upper bound -  only return the next greater element pointer
+```cpp
+class Solution {
+public:
+    vector<int> searchRange(vector<int>& nums, int target) {
+        vector<int> res(2,-1);
+        auto lower = lower_bound(nums.begin(), nums.end(), target);
+        auto upper = upper_bound(nums.begin(), nums.end(), target);
+
+        if (lower != nums.end() && *lower == target) {
+            res[0] = lower - nums.begin();
+            res[1] = upper - nums.begin() - 1;
+        }
+        return res;
+    }
+};
+```
