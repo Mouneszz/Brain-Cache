@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview prep/Arrays.md",
+                "file": "Algos/Sorting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arrays"
+              "title": "Sorting"
             }
           }
         ]
@@ -170,12 +170,14 @@
   },
   "active": "4d775096aa9f7f4d",
   "lastOpenFiles": [
+    "Git.md",
+    "Algos/Sorting.md",
+    "Algos",
+    "Interview prep/Arrays.md",
     "Problems/Medium/Array.md",
     "Problems/Medium/Graph.md",
     "Important Programs/Arrays.md",
     "Important Programs/Backtracking.md",
-    "Git.md",
-    "Interview prep/Arrays.md",
     "Graph/Detect Cycle in Directed Graph.md",
     "Graph/Detect Cyclic undirected cyclic graph(BFS).md",
     "Graph/DFS.md",
@@ -186,7 +188,6 @@
     "GPT model/Transformer code.md",
     "Important Programs/Binary Tree.md",
     "Interview prep",
-    "Untitled",
     "JupyterMysql.md",
     "Graph/Graph Na Enna.md",
     "GPT model",
@@ -198,7 +199,6 @@
     "MySQL/Theory/ACID.md",
     "MySQL/Theory/SCD.md",
     "MySQL/Theory/Things to remember.md",
-    "MySQL/Theory/Definition for commands.md",
     "Empty.canvas",
     "MySQL/Theory",
     "MySQL/Code",
