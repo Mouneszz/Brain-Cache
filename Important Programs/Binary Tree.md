@@ -1,3 +1,5 @@
+
+
 [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 #binarytree
 Intuition :  In this problem its simple just use recursion and swap them from bottom up.
@@ -43,11 +45,11 @@ public:
 
 
     }
-    bool isSubtree(TreeNode* root, TreeNode* subRoot) {
+    bool isSubtree(TreeNod  e* root, TreeNode* subRoot) {
         if(root==nullptr) return false;
         if(issame(root,subRoot)) return true;
         return isSubtree(root->left,subRoot) || isSubtree(root->right,subRoot);
-    }
+    }  
 };
 ```
 [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)

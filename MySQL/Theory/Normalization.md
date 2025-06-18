@@ -18,8 +18,8 @@ To Normalize the above table we have to create a separate row for `sowkarpeat`
 ### **2nd Normal Form (2NF)**
 
 - Must be in **1NF**.
-- Remove **partial dependencies** (all non-key attributes must depend on the **whole primary key**, not just a part of it).
-
+- Remove **partial dependencies** (all non-key attributes must depend on the **whole primary key**, not just a part of it)
+ 
 **Violates 2NF**
 `primary key(order_id,product)`
 

@@ -1,4 +1,4 @@
-What is an OS?
+ What is an OS?
 - An OS is system software that manages hardware and software resources, providing services for programs.
 - An operating system acts as an intermediary between the user of a computer and computer hardware. In short its an interface between computer hardware and user.
 

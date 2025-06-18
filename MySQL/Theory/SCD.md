@@ -16,4 +16,3 @@
 - Stores the **previous value** in a separate column.
 - Limited history is maintained.
 - **Example:** A table has `current_address` and `previous_address` columns.
-- 

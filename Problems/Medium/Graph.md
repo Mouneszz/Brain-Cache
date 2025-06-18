@@ -930,3 +930,41 @@ public:
     }
 };
 ```
+
+[778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
+Intuition : we have to find the shortest way possible from 0,0 to n-1,n-1 and the largest element in the way is the answer.
+```cpp
+class Solution {
+public:
+    int swimInWater(vector<vector<int>>& grid) {
+        int ans = INT_MIN;
+        int n =  grid.size();
+        vector<vector<int>> check(n,vector<int>(n,0));
+        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<>> minheap;
+        minheap.push({grid[0][0],{0,0}});
+        vector<int> dr = {0,0,-1,1};
+        vector<int> dc = {1,-1,0,0};
+        while(!minheap.empty()){
+            auto ele = minheap.top();
+            minheap.pop();
+            int num = ele.first;
+            int row = ele.second.first;
+            int col = ele.second.second;
+            if(check[row][col]) continue;
+            check[row][col] = 1;
+            ans = max(ans,ele.first);
+            if(row == n-1 && col == n-1){
+                return ans;
+            }
+            for(int i=0;i<4;i++){
+                int r = row+dr[i];
+                int c = col+dc[i];
+                if(r>=0 && c>=0 &&r<n && c<n && check[r][c]!=1){
+                    minheap.push({grid[r][c],{r,c}});
+                }
+            }
+        }
+        return -1;
+    }
+};
+```

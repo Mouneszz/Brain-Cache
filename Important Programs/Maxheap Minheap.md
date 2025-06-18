@@ -1,4 +1,4 @@
-[973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+ [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 Intuition : This problem is similar to the largest kth element in the stream its opposite version of that problem here we declare a max heap to store  k elements if the heap size become greater than we pop the top element so we get the k closest elements to the origin.
 ```cpp
 class Solution {
