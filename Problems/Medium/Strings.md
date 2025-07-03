@@ -27,7 +27,7 @@ public:
         vector<int> ans;
         int psize = p.size();
         for(const auto& ch:p){
-            mpp2[ch]++;
+            m   
         }
 
         while(right<s.size()){

@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "5bcd182f10d828ce",
+        "id": "91e330959b3ff496",
         "type": "tabs",
         "children": [
           {
-            "id": "9e0ad89ac4093e7c",
+            "id": "07edca2b2be394db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems/Medium/Graph.md",
+                "file": "C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graph"
+              "title": "C++"
+            }
+          },
+          {
+            "id": "d8b6ce0282f1d3e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPT model/Architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Architecture"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git.md",
+                "file": "GPT model/Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Git"
+              "title": "Backlinks for Architecture"
             }
           },
           {
@@ -168,45 +183,45 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "9e0ad89ac4093e7c",
+  "active": "d8b6ce0282f1d3e8",
   "lastOpenFiles": [
-    "Graph/BFS.md",
+    "GPT model/Transformer code.md",
+    "codeandlearn/Day 1.md",
+    "OS/Process Scheduling.md",
+    "MySQL/Code/1.Basic CRUD.md",
+    "codeandlearn",
+    "MySQL/Theory/Definition for commands.md",
+    "MySQL/Theory/Things to remember.md",
+    "MySQL/Code/2.Constraints.md",
+    "Entity Relation.md",
+    "C++.md",
+    "MySQL/Code/4.Aggregation functions.md",
+    "MySQL/Code/10.Window Function.md",
+    "MySQL/Code/11.UNION,UNION ALL.md",
+    "MySQL/Code/12.Indexing-Partitioning.md",
     "MySQL/Code/13.Regexp.md",
     "MySQL/Code/14.TCP Commit-Rollback.md",
     "MySQL/Code/15.Grant - revoke.md",
-    "OOPS/Definitions.md",
-    "OS/Basic.md",
-    "OS/Scheduling Algorithms.md",
-    "Things to remember/Static and Non static.md",
-    "Things to remember/Stack Memory and Heap Memory.md",
-    "Things to remember/How a program runs.md",
-    "Things to remember/Different ways to create Obj.md",
-    "Things to remember/Code.md",
-    "OS/Process Scheduling.md",
-    "Important Programs/Trie.md",
-    "Interview prep/Arrays.md",
-    "Important Programs/Binary Search.md",
-    "Important Programs/Backtracking.md",
-    "MySQL/Code/1.Basic CRUD.md",
-    "Important Programs/Binary Tree.md",
-    "Important Programs/Stack.md",
-    "Important Programs/Strings.md",
-    "Tree/Binary tree Structure.md",
-    "Git.md",
-    "Important Programs/Maxheap Minheap.md",
-    "MySQL/Theory/ACID.md",
-    "MySQL/Theory/SCD.md",
+    "MySQL/Code/Date and time.md",
+    "MySQL/Code/3.Filter - order by.md",
+    "MySQL/Code/5.Null handling.md",
+    "Problems/Medium/Strings.md",
+    "Problems/Medium/Stack.md",
+    "Problems/Medium/LinkedList.md",
+    "Problems/Medium/HashMap.md",
+    "Problems/Medium/Array.md",
+    "Problems/Medium/BackTracking.md",
+    "MySQL/Code/6.String handling.md",
+    "Fullstock ool/html",
+    "Fullstock ool",
+    "Untitled",
+    "JS",
     "Empty.canvas",
     "Algos",
     "Interview prep",
     "GPT model",
     "MySQL/Theory",
     "MySQL/Code",
-    "MySQL/Code/Table",
-    "MySQL/Commands",
-    "MySQL",
-    "OS",
-    "Trie",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Pasted image 20241016150500.png",
