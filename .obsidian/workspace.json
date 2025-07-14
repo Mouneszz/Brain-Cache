@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPT model/Architecture.md",
+                "file": "Daily Learnings/Day 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Architecture"
+              "title": "Day 1"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "right": {
     "id": "750862d39bb8dc21",
@@ -185,6 +186,10 @@
   },
   "active": "d8b6ce0282f1d3e8",
   "lastOpenFiles": [
+    "GPT model/Architecture.md",
+    "Daily Learnings/Day 1.md",
+    "Untitled 1",
+    "Daily Learnings",
     "GPT model/Transformer code.md",
     "codeandlearn/Day 1.md",
     "OS/Process Scheduling.md",
@@ -210,8 +215,6 @@
     "Problems/Medium/LinkedList.md",
     "Problems/Medium/HashMap.md",
     "Problems/Medium/Array.md",
-    "Problems/Medium/BackTracking.md",
-    "MySQL/Code/6.String handling.md",
     "Fullstock ool/html",
     "Fullstock ool",
     "Untitled",
@@ -220,8 +223,6 @@
     "Algos",
     "Interview prep",
     "GPT model",
-    "MySQL/Theory",
-    "MySQL/Code",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Pasted image 20241016150500.png",
