@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Learnings/Day 1.md",
+                "file": "Daily Learnings/Day 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 1"
+              "title": "Day 3"
             }
           }
         ],
@@ -185,8 +185,12 @@
   },
   "active": "d8b6ce0282f1d3e8",
   "lastOpenFiles": [
-    "Daily Learnings/Day 2.md",
+    "Pasted image 20250716175409.png",
+    "GPT model/Architecture.md",
+    "Daily Learnings/Day 3.md",
+    "Git.md",
     "Daily Learnings/Day 1.md",
+    "Daily Learnings/Day 2.md",
     "Important Programs/Arrays.md",
     "Interview prep/Arrays.md",
     "Algos/Sorting.md",
@@ -195,7 +199,6 @@
     "codeandlearn/Day 1.md",
     "OS/Scheduling Algorithms.md",
     "MySQL/Code/10.Window Function.md",
-    "GPT model/Architecture.md",
     "Untitled 1",
     "Daily Learnings",
     "GPT model/Transformer code.md",
@@ -211,9 +214,6 @@
     "MySQL/Code/11.UNION,UNION ALL.md",
     "MySQL/Code/12.Indexing-Partitioning.md",
     "MySQL/Code/13.Regexp.md",
-    "MySQL/Code/14.TCP Commit-Rollback.md",
-    "MySQL/Code/15.Grant - revoke.md",
-    "MySQL/Code/Date and time.md",
     "Fullstock ool/html",
     "Fullstock ool",
     "Untitled",
