@@ -4,6 +4,9 @@
 
 **Asynchronous**
 - Doing a task **without waiting** for it to finish before moving on to the next one.
+
+--- 
+
 ## GIT ##
 
 **git add .** -  Brings every changed files to the staging area. `.` for selecting everything if we want specific we can name it specifically.
@@ -21,5 +24,5 @@ but when we are **working collaboratively** And need to make changes in the remo
 **Branching**
 - When you want to make changes in specific features but does **not want to make it in the main** to test we can create a new branch to add, commit and test. then **pull request** this so if its satisfied we can merge this into the main Branch.
 
-
+---
 
