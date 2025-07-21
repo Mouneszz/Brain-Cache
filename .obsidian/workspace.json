@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Learnings/Day 3.md",
+                "file": "codeandlearn/Day 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 3"
+              "title": "Day 1"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flask API.md",
+                "file": "Flask/Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flask API"
+              "title": "Basics"
             }
           },
           {
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "merge interva",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,11 +214,17 @@
   },
   "active": "5164c714071f64bc",
   "lastOpenFiles": [
-    "TOP SQL Questions.md",
     "Flask API.md",
-    "TOP SQL Questions",
-    "Daily Learnings/Day 3.md",
+    "codeandlearn/Day 1.md",
+    "JupyterMysql.md",
+    "Things to remember/Code.md",
+    "Entity Relation.md",
+    "TOP SQL Questions.md",
+    "Flask/Basics.md",
+    "Flask",
     "Git.md",
+    "Daily Learnings/Day 3.md",
+    "TOP SQL Questions",
     "Daily Learnings/Day 2.md",
     "Pasted image 20250716175409.png",
     "GPT model/Architecture.md",
@@ -228,7 +234,6 @@
     "Algos/Sorting.md",
     "Bit  manipulation/Shifting.md",
     "Bit  manipulation/Tips for Manipulation.md",
-    "codeandlearn/Day 1.md",
     "OS/Scheduling Algorithms.md",
     "MySQL/Code/10.Window Function.md",
     "Untitled 1",
@@ -240,18 +245,13 @@
     "MySQL/Theory/Definition for commands.md",
     "MySQL/Theory/Things to remember.md",
     "MySQL/Code/2.Constraints.md",
-    "Entity Relation.md",
     "C++.md",
-    "MySQL/Code/4.Aggregation functions.md",
-    "MySQL/Code/11.UNION,UNION ALL.md",
-    "MySQL/Code/12.Indexing-Partitioning.md",
     "Fullstock ool/html",
     "Fullstock ool",
     "JS",
     "Empty.canvas",
     "Algos",
     "Interview prep",
-    "GPT model",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Pasted image 20241016150500.png",
