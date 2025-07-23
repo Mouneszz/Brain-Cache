@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flask/Basics.md",
+                "file": "Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basics"
+              "title": "Git"
+            }
+          },
+          {
+            "id": "b896621a336ddddf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RAG Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RAG Model"
             }
           },
           {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,17 +226,18 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "5164c714071f64bc",
+  "active": "b896621a336ddddf",
   "lastOpenFiles": [
+    "Git.md",
+    "RAG Model.md",
+    "Flask/Basics.md",
     "Flask API.md",
     "codeandlearn/Day 1.md",
     "JupyterMysql.md",
     "Things to remember/Code.md",
     "Entity Relation.md",
     "TOP SQL Questions.md",
-    "Flask/Basics.md",
     "Flask",
-    "Git.md",
     "Daily Learnings/Day 3.md",
     "TOP SQL Questions",
     "Daily Learnings/Day 2.md",
@@ -245,7 +260,6 @@
     "MySQL/Theory/Definition for commands.md",
     "MySQL/Theory/Things to remember.md",
     "MySQL/Code/2.Constraints.md",
-    "C++.md",
     "Fullstock ool/html",
     "Fullstock ool",
     "JS",
