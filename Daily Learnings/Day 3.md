@@ -16,7 +16,7 @@
 **git push origin main** -  Until the above steps it is only changed in the local repo,
 but when we are **working collaboratively** And need to make changes in the remote repo like in you git cloud repository you have to do this.
 
-**git pull** -  When your teammate pushed something when you are working to**grab their code you**. fetch that **merge it into your local** copy. 
+**git pull** -  When your teammate pushed something when you are working to **grab their code you**. fetch that **merge it into your local** copy. 
 
 ![[Pasted image 20250716175409.png]]
 

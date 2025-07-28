@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important Programs/Stack.md",
+                "file": "Socketchat/Day 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack"
+              "title": "Day 1"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "RAG",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "right": {
     "id": "750862d39bb8dc21",
@@ -185,23 +186,28 @@
   },
   "active": "5164c714071f64bc",
   "lastOpenFiles": [
-    "Important Programs/Strings.md",
-    "Git.md",
     "RAG Model.md",
-    "Flask/Basics.md",
-    "Flask API.md",
-    "codeandlearn/Day 1.md",
+    "Socketchat/Day 1.md",
+    "Socketchat",
     "JupyterMysql.md",
-    "Things to remember/Code.md",
+    "Daily Learnings/Day 1.md",
+    "Daily Learnings/Day 2.md",
+    "Flask/Basics.md",
+    "Daily Learnings/Day 3.md",
+    "C++.md",
     "Entity Relation.md",
+    "Empty.canvas",
+    "Flask API.md",
+    "Git.md",
+    "codeandlearn/Day 1.md",
+    "Important Programs/Stack.md",
+    "Important Programs/Strings.md",
+    "Things to remember/Code.md",
     "TOP SQL Questions.md",
     "Flask",
-    "Daily Learnings/Day 3.md",
     "TOP SQL Questions",
-    "Daily Learnings/Day 2.md",
     "Pasted image 20250716175409.png",
     "GPT model/Architecture.md",
-    "Daily Learnings/Day 1.md",
     "Important Programs/Arrays.md",
     "Interview prep/Arrays.md",
     "Algos/Sorting.md",
@@ -213,16 +219,11 @@
     "Daily Learnings",
     "GPT model/Transformer code.md",
     "OS/Process Scheduling.md",
-    "MySQL/Code/1.Basic CRUD.md",
     "codeandlearn",
-    "MySQL/Theory/Definition for commands.md",
-    "MySQL/Theory/Things to remember.md",
     "Fullstock ool/html",
     "Fullstock ool",
     "JS",
-    "Empty.canvas",
     "Algos",
-    "Interview prep",
     "Pasted image 20250205190458.png",
     "Pasted image 20250205190449.png",
     "Pasted image 20241016150500.png",
