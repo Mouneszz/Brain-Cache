@@ -6,3 +6,9 @@
 - At rest protection depends on device encryption and backup settings.
 - Common in Signal, WhatsApp, iMessage (with encrypted backups for full security).
 
+**Python input getting as a list**
+
+```python
+arr = list(map(int,input().split()))
+```
+map is to map the split input into int 

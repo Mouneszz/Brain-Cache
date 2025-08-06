@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codeandlearn/Day 1.md",
+                "file": "Daily Learnings/Day 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 1"
+              "title": "Day 5"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "right": {
     "id": "750862d39bb8dc21",
@@ -186,6 +187,12 @@
   "active": "5164c714071f64bc",
   "lastOpenFiles": [
     "Daily Learnings/Day 4.md",
+    "Daily Learnings/Day 5.md",
+    "MySQL/Code/4.Aggregation functions.md",
+    "MySQL/Code/3.Filter - order by.md",
+    "MySQL/Code/2.Constraints.md",
+    "MySQL/Code/1.Basic CRUD.md",
+    "codeandlearn/Day 1.md",
     "Graph/DFS.md",
     "Genworx prep/Round 2.md",
     "Important Programs/Maxheap Minheap.md",
@@ -208,14 +215,8 @@
     "JupyterMysql.md",
     "Pasted image 20250716175409.png",
     "RAG Model.md",
-    "TOP SQL Questions.md",
     "Socketchat",
-    "C++.md",
-    "Entity Relation.md",
     "Empty.canvas",
-    "Flask API.md",
-    "codeandlearn/Day 1.md",
-    "Important Programs/Strings.md",
     "Flask",
     "TOP SQL Questions",
     "Untitled 1",
