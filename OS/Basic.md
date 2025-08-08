@@ -16,47 +16,47 @@ CPU:
  1. **Arithmetic Logic Unit (ALU)** – Performs calculations and logic operations.
  2. **Control Unit (CU)** – Directs execution flow and manages communication between components.
  3. **Registers** – Small, fast storage inside the CPU for temporary data.
- 4. **Cache Memory** – Stores frequently used data for quick access.
+ 4. **Cache Memory** – Stores frequently used data for quick access. 
  ```
-+---------------------+
-| User Runs Program  |
-+---------------------+
-          |
-          v
-+---------------------+
-| OS Loads Program   |
-| into Memory (RAM)  |
++---------------------+ 
+| User Runs Program   | 
 +---------------------+
           |
           v
 +---------------------+
-| CPU Fetches        |
-| Next Instruction   |
+| OS Loads Program    |
+| into Memory (RAM)   |
 +---------------------+
           |
           v
 +---------------------+
-| CPU Decodes &      |
-| Executes the       |
-| Instruction        |
+| CPU Fetches         |
+| Next Instruction    |
 +---------------------+
           |
           v
 +---------------------+
-| If I/O is Needed?  |-- Yes --> OS Handles I/O (Disk, Network)
-| (File, Network)    |-- No --> Continue Execution
+| CPU Decodes &       |
+| Executes the        |
+| Instruction         |
++---------------------+
+          |
+          v 
++---------------------+
+| If I/O is Needed?   |-- Yes --> OS Handles I/O (Disk, Network)
+| (File, Network)     |-- No --> Continue Execution
 +---------------------+
           |
           v
 +---------------------+
-| Program Completes  |
-| and OS Frees Memory|
+| Program Completes   |
+| and OS Frees Memory |
 +---------------------+
 
 ```
 
 Registers:
-- **A type of computer memory unit used to accept, store, and transfer data and instructions used by the CPU right away(For immediate use). **
+- **A type of computer memory unit used to accept, store, and transfer data and instructions used by the CPU right away(For immediate use).**
 - **Registers** are small, high-speed memory units inside the CPU that store data temporarily during execution.
 
 Driver:
