@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview.md",
+                "file": "OOPS/Cpp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview"
+              "title": "Cpp"
             }
           },
           {
@@ -185,8 +185,10 @@
   },
   "active": "07edca2b2be394db",
   "lastOpenFiles": [
-    "AWS/Module 6.md",
+    "OOPS/Definitions.md",
+    "OOPS/Cpp.md",
     "Interview.md",
+    "AWS/Module 6.md",
     "AWS/Module 5.md",
     "AWS/Module 4.md",
     "AWS/Module 3.md",
@@ -209,8 +211,6 @@
     "AWS/Module 7.md",
     "Interview prep/Arrays.md",
     "C++.md",
-    "Things to remember/Code.md",
-    "OS/Process Flow.md",
     "AWS/Untitled",
     "Pasted image 20250807094745.png",
     "AWS",
