@@ -16,12 +16,14 @@ Example:
 **Containers** provide a consistent environment across different devices.
 - Containers provide a reliable way to package your application’s code and dependencies into a single, portable unit, making them ideal for workflows that require high security, reliability, and scalability.
 
+
+
 Orchestration:
 - As a application scales more containers is required so to manage these containers **Orchestration** comes handy 
 - They manage the life cycle.
 
 - ECS- Amazon Elastic Container Service (Amazon ECS) is a scalable container orchestration service for running and managing containers on AWS, like Docker containers.
-
+ 
 - EKS- Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed service for running Kubernetes on AWS. It simplifies deploying, managing, and scaling containerized applications using open-source Kubernetes
 ### Fargate:
 AWS Fargate is a serverless compute engine for containers. It works with both Amazon ECS and Amazon EKS. Fargate is a container hosting platform, unlike Amazon ECS and Amazon EKS, which are both container orchestration services.

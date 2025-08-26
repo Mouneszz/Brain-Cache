@@ -175,6 +175,9 @@ int main() {
 ```
 
 **Overriding**
+When we only know the class type in the runtime and we want to have a overridable function in the base class so use virtual function (*Runtime Overriding*)
+Having *Pure virtual function* in a class will not let you to  create obj() of the base class. we should override it with the derived class methods 
+
 ```cpp
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -222,4 +225,12 @@ here even if we simply create an object for the base class we cannot
 
 **If it is a normal virtual function** we can create a object for that class with that class pointer to class obj.
 but if it is **pure virtual function**  we will not be able to create a obj for its own with the base class pointer
+
+
+### Abstract class
+If a **base class has at least one pure virtual function**, that class becomes an **abstract class** in C++.
+
+👉 **Abstract class rule:**
+- You **cannot** create an object of an abstract class.
+- But you **can** create pointers or references of the abstract class type and point them to derived class objects.
 
