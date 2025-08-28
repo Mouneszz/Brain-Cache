@@ -150,3 +150,101 @@ accuracy_score(y_test, y_pred)
 confusion_matrix(y_test, y_pred)
 classification_report(y_test, y_pred)
 ```
+
+
+
+
+
+
+## Visualization
+
+```python
+# Survival count
+sns.countplot(x='Survived', data=df)
+plt.title("Survival Count (0 = No, 1 = Yes)")
+plt.show()
+
+# Gender distribution
+sns.countplot(x='Sex', data=df)
+plt.title("Gender Count")
+plt.show()
+
+# Passenger Class distribution
+sns.countplot(x='Pclass', data=df)
+plt.title("Passenger Class Distribution")
+plt.show()
+
+
+
+# Survival by Gender
+sns.countplot(x='Survived', hue='Sex', data=df)
+plt.title("Survival by Gender")
+plt.show()
+
+# Survival by Passenger Class
+sns.countplot(x='Survived', hue='Pclass', data=df)
+plt.title("Survival by Class")
+plt.show()
+
+# Survival by Embarkation Port
+sns.countplot(x='Survived', hue='Embarked', data=df)
+plt.title("Survival by Embarked Port")
+plt.show()
+```
+## Titanic Decision Tree
+```python
+# Titanic Dataset - Decision Tree Classification
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score, classification_report
+
+# -----------------
+# 1. Load Dataset
+# -----------------
+df = pd.read_csv("titanic.csv")
+
+# -----------------
+# 2. Drop unwanted columns
+# -----------------
+df.drop(['Name', 'Sex', 'Embarked', 'SibSp', 'Cabin', 'Parch', 'PassengerId'], 
+        axis=1, inplace=True)
+
+# -----------------
+# 3. Handle missing values
+# -----------------
+df['Age'].fillna(df['Age'].mean(), inplace=True)   # Replace missing Age with mean
+
+# -----------------
+# 4. One-Hot Encoding
+# -----------------
+df = pd.get_dummies(df, columns=['Sex', 'Embarked'], drop_first=True)  # creates columns like Sex_male, Embarked_Q, etc.
+
+# -----------------
+# 5. Define Features and Target
+# -----------------
+X = df.drop("Survived", axis=1)  # Features
+y = df["Survived"]               # Target
+
+# -----------------
+# 6. Train-Test Split
+# -----------------
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+# -----------------
+# 7. Train Decision Tree
+# -----------------
+model = DecisionTreeClassifier(random_state=42)
+model.fit(X_train, y_train)
+
+# -----------------
+# 8. Evaluate
+# -----------------
+y_pred = model.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("Classification Report:\n", classification_report(y_test, y_pred))
+
+```
