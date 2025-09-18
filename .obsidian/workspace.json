@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine learning/ML Libs.md",
+                "file": "Machine learning/Day 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ML Libs"
+              "title": "Day 7"
             }
           },
           {
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 300.5,
+    "collapsed": true
   },
   "right": {
     "id": "750862d39bb8dc21",
@@ -183,6 +184,8 @@
   },
   "active": "07edca2b2be394db",
   "lastOpenFiles": [
+    "Machine learning/ML Libs.md",
+    "Machine learning/Day 7.md",
     "Machine learning/Metrics.md",
     "Machine learning/Day 6.md",
     "Machine learning/Day 5.md",
@@ -193,7 +196,6 @@
     "MySQL/Code/3.Filter - order by.md",
     "MySQL/Code/2.Constraints.md",
     "MySQL/Code/1.Basic CRUD.md",
-    "Machine learning/ML Libs.md",
     "Things to remember/Static and Non static.md",
     "Things to remember/Stack Memory and Heap Memory.md",
     "Things to remember/How a program runs.md",
@@ -210,7 +212,6 @@
     "Entity Relation.md",
     "Graph/Detect Cyclic undirected cyclic graph(BFS).md",
     "Graph/Detect  Cycle in undirected cyclic Graph using dfs.md",
-    "Hugging face/Day 1.md",
     "Machine learning",
     "Hugging face",
     "AWS/Untitled",
