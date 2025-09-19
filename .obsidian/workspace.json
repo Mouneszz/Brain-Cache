@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine learning/Day 7.md",
+                "file": "Machine learning/Fine Tuning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day 7"
+              "title": "Fine Tuning"
             }
           },
           {
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5,
-    "collapsed": true
+    "width": 300.5
   },
   "right": {
     "id": "750862d39bb8dc21",
@@ -184,15 +183,16 @@
   },
   "active": "07edca2b2be394db",
   "lastOpenFiles": [
-    "Machine learning/ML Libs.md",
+    "Machine learning/Day 1.md",
+    "Machine learning/Fine Tuning.md",
     "Machine learning/Day 7.md",
+    "Machine learning/ML Libs.md",
     "Machine learning/Metrics.md",
     "Machine learning/Day 6.md",
     "Machine learning/Day 5.md",
     "Machine learning/Day 4.md",
     "Machine learning/Day 3.md",
     "Machine learning/Day 2.md",
-    "Machine learning/Day 1.md",
     "MySQL/Code/3.Filter - order by.md",
     "MySQL/Code/2.Constraints.md",
     "MySQL/Code/1.Basic CRUD.md",
@@ -211,7 +211,6 @@
     "Empty.canvas",
     "Entity Relation.md",
     "Graph/Detect Cyclic undirected cyclic graph(BFS).md",
-    "Graph/Detect  Cycle in undirected cyclic Graph using dfs.md",
     "Machine learning",
     "Hugging face",
     "AWS/Untitled",
